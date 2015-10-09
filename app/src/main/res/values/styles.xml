@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:buttonStyle">@style/Widget.Button.Custom</item>
+        <item name="android:editTextStyle">@style/Widget.EditText.Custom</item>
+    </style>
+
+    <style name="Widget.Button.Custom" parent="android:Widget.Button">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/button_shadow</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="Widget.EditText.Custom" parent="android:Widget.EditText">
+        <item name="android:ems">10</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:background">@drawable/input_shadow</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+</resources>
